@@ -1,7 +1,7 @@
 clc; clear
 q=250; % Quantity manufactured
 for i1 = 1:q
-    Cost(i1) = 10*i1^2 + 200*i1 + 200000;
+    Cost(i1) = 10*i1^2 + 200*i1 + 100000;
     Required_cost(i1) = 2400*i1;
     end
 
